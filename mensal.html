@@ -1,0 +1,57 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>OrganiZ</title>
+</head>
+<header class="imagem">
+    <img src="imagem/thumbnail_OrganiZ__1_-removebg-preview.png" alt="logo" height="60px">
+    <h1 class="nome2">Organi<span>Z</span></h1>
+</header>
+
+<body>
+    <section class="conteiner_form">
+        <h1>Cadastro mensal</h1>
+        <form class="form" action="#" method="post">
+
+
+            <div class="form_grupo">
+                <label for="nome" class="form_label">Nome completo</label>
+                <input type="text" name="nome" class="form_input" id="nome" placeholder="Nome completo" required>
+            </div>
+
+            <div class="form_grupo">
+                <label for="data" class="form_label">Data de nascimento</label>
+                <input type="date" name="data" class="form_input" id="data" required>
+            </div>
+
+            <div class="form_grupo">
+                <label for="email" class="form_label">Email</label>
+                <input type="email" name="email" class="form_input" id="email" placeholder="seuemail@email.com"
+                    required>
+            </div>
+
+            <div class="form_grupo">
+                <label for="senha" class="form_label">Crie sua senha</label>
+                <input type="password" name="senha" class="form_input" id="senha" placeholder="Digite sua senha"
+                    required>
+            </div>
+
+            <div class="form_grupo">
+                <label for="senha2" class="form_label">Confirme sua senha</label>
+                <input type="password" name="senha2" class="form_input" id="senha2" placeholder="Digite sua senha"
+                    required>
+            </div>
+
+            <div class="submit">
+                <input type="hidden" name="acao" value="enviar">
+                <button type="submit" name="Submit" class="submit_btn">Cadastrar</button>
+            </div>
+
+        </form>
+    </section>
+
+</body>
